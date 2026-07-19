@@ -1,3 +1,4 @@
+// we use monotonic stack as a greedy approach
 #include <bits/stdc++.h>
 using namespace std;
  string smallestSubsequence(string s) {
@@ -24,9 +25,11 @@ using namespace std;
             ans += ch;
 
         return ans;
-
     }
-    int main(){
+    // time complexity = O(n);
+    // space complexity = O(1) no extra space use 
+    int main()
+    {
           
     string s;
     cin >> s;
